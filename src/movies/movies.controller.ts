@@ -19,7 +19,7 @@ export class MoviesController {
     return this.moviesService.findAllLiked();
   }
 
-  @Get()
+  @Get('aliked')
   findNoAll() {
     return this.moviesService.findAllNoLiked();
   }

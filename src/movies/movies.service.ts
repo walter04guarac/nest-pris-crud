@@ -9,7 +9,7 @@ export class MoviesService {
   create(createMovieDto: CreateMovieDto) {
     return this.Prisma.movies.create({
       data: createMovieDto,
-    })
+    });
   }
 
   findAllLiked() {

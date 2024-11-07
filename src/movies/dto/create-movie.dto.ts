@@ -11,9 +11,7 @@ export class CreateMovieDto {
     gender: string;
 
     @ApiProperty({default:true})
-    aliked: boolean;
-    
-    @ApiProperty({default:true})
-    notliked: boolean;
+    aLiked: boolean;
+
 
 }
